@@ -1,0 +1,50 @@
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif; /* Définit la police de caractères */
+    background-color: #f0f0f0; /* Couleur de fond de la page */
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0; /* Supprime les espaces intérieurs par défaut */
+}
+
+/* Conteneur principal de l'application */
+.container {
+    max-width: 600px; /* Largeur maximale du conteneur */
+    margin: 0 auto; /* Centre le conteneur horizontalement */
+    padding: 20px; /* Ajoute de l'espace intérieur */
+    background: white; /* Couleur de fond blanche pour le conteneur */
+    border-radius: 8px; /* Arrondit les coins du conteneur */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajoute une ombre autour du conteneur */
+}
+
+/* Style du titre principal */
+h1 {
+    text-align: center; /* Centre le texte du titre */
+}
+
+/* Style des champs de texte */
+input[type="text"] {
+    width: calc(100% - 22px); /* Prend toute la largeur moins les marges */
+    padding: 10px; /* Ajoute de l'espace intérieur dans le champ */
+    margin-bottom: 10px; /* Ajoute un espace en dessous du champ */
+}
+
+/* Style des boutons */
+button {
+    width: 100%; /* Prend toute la largeur du conteneur */
+    padding: 10px; /* Ajoute de l'espace intérieur au bouton */
+    background-color: #007BFF; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    border: none; /* Supprime la bordure par défaut */
+    border-radius: 5px; /* Arrondit les coins du bouton */
+    cursor: pointer; /* Change le curseur au survol */
+}
+
+/* Effet de survol pour le bouton */
+button:hover {
+    background-color: #0056b3; /* Change la couleur de fond lorsque le bouton est survolé */
+}
+
+/* Style pour la zone d'information météo */
+#weatherInfo {
+    margin-top: 20px; /* Ajoute un espace au-dessus de la zone d'information */
+}
